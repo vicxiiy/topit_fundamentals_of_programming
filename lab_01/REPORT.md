@@ -17,7 +17,7 @@ print(f"{course}: {hours} часов")
 • `"Python"` 
 • `4 * 2` 
 • `f"{course}: {hours} часов"`
-• аргументы вызова `print(...)`
+• `аргументы вызова print(...)`
 ##### Инструкции:
 • `course = "Python"`
 • `hours = 4 * 2` 
