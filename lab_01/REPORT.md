@@ -14,18 +14,18 @@ print(f"{course}: {hours} часов")
 ```
 
 Выражения:
-• "Python" 
-• 4 * 2 
-• f"{course}: {hours} часов" 
-• аргументы вызова print(...)
+• `"Python"` 
+• `4 * 2` 
+• `f"{course}: {hours} часов"`
+• аргументы вызова `print(...)`
 Инструкции:
-• course = "Python" 
-• hours = 4 * 2 
-• print(...) 
+• `course = "Python"`
+• `hours = 4 * 2` 
+• `print(...)` 
 Литералы:
 "Python", 4, 2, ": ", " часов"
 Имена, создаваемые при выполнении:
-course, hours
+`course`, `hours`
 
 #### Часть 3. AST и байткод
 В AST нашлось:
