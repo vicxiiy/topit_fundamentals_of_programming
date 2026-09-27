@@ -24,12 +24,15 @@ print(f"{course}: {hours} часов")
 
 #### Часть 3. AST и байткод
 В AST нашлось:
-1.	Присваивание: 
+##### 1.	Присваивание: 
+```
 Assign(
    targets=[
       Name(id='course', ctx=Store())],
    value=Constant(value='Python'))
-2.	Арифметическая операция:  
+```
+##### 2.	Арифметическая операция:  
+```
 Assign(
    targets=[
       Name(id='hours', ctx=Store())],
@@ -37,13 +40,17 @@ Assign(
       left=Constant(value=4),
       op=Mult(),
       right=Constant(value=2)))
-3.	Вызов print():
+```
+##### 3.	Вызов print():
+```
 Expr(
    value=Call(
       func=Name(id='print', ctx=Load()),
       args=[
          JoinedStr(…)])
-Фрагмент байткода:
+```
+#### Фрагмент байткода:
+```
              …
 5           LOAD_CONST               1 ('Python')
             STORE_NAME               1 (course)
@@ -64,6 +71,7 @@ Expr(
             POP_TOP
             LOAD_CONST               4 (None)
              …
+```
 
 В байткоде за загрузку константы отвечает LOAD_CONST, а за вызов функции - CALL.
 ### Контрольный вопрос:
