@@ -217,7 +217,7 @@ z = complex(2, -3)
 print(z, type(z))
 print("real =", z.real, "imag =", z.imag)
 ```
-После выполнения операции были получены ответы:
+Результат:
 ```
 42 <class 'int'>
 3.14 <class 'float'>
