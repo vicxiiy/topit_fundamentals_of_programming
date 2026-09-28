@@ -192,7 +192,7 @@ print("result == 0.3:", result == 0.3)
 print("result - 0.3 =", result - 0.3)
 print("math.isclose(result, 0.3):", math.isclose(result, 0.3))
 ```
-При исследовании выражения `result = 0.1 + 0.2` получились ответы:
+Результат:
 ```
 result = 0.30000000000000004
 result == 0.3: False
