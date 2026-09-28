@@ -281,18 +281,19 @@ print(
 )
 ```
 
-__1.__	researcher_name - str 
-experiment_name - str 
-runs_count - int 
-run_duration - float 
-coeff_real - float 
-coeff_imag - float 
-total_duration_seconds - float 
-total_duration_minutes - float 
-coefficient - complex 
-magnitude_squared - float 
-has_runs - bool 
-separator - str
+__1.__	researcher_name - `str` 
+
+experiment_name - `str` 
+runs_count - `int` 
+run_duration - `float` 
+coeff_real - `float` 
+coeff_imag - `float` 
+total_duration_seconds - `float` 
+total_duration_minutes - `float` 
+coefficient - `complex` 
+magnitude_squared - `float` 
+has_runs - `bool` 
+separator - `str`
 
 __2.	Для строки:__
 `magnitude_squared = coeff_real ** 2 + coeff_imag ** 2`
