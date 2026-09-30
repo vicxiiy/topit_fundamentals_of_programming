@@ -298,7 +298,6 @@ __1.__
 print("1. Первый и последний символ имени")
 print("Первый символ:", student[0])
 print("Последний символ:", student[-1])
-print()
 ```
 
 Результат:
@@ -314,7 +313,6 @@ __2.__
 print("2. Срезы имени и фамилии")
 print("Имя:", student[0:4])
 print("Фамилия:", student[5:])
-print()
 ```
 
 Результат:
@@ -330,7 +328,6 @@ __3.__
 print("3. Верхний и нижний регистр")
 print("Верхний регистр:", student.upper())
 print("Нижний регистр:", student.lower())
-print()
 ```
 
 Результат:
@@ -347,7 +344,6 @@ __4.__
 print("4. Инициалы")
 initials = student[0] + "." + student[5] + "."
 print("Инициалы:", initials)
-print()
 ```
 
 Результат:
@@ -362,7 +358,6 @@ __5.__
 ```
 print("5. Название курса в обратном порядке")
 print("Курс наоборот:", course[::-1])
-print()
 ```
 
 Результат:
@@ -385,7 +380,6 @@ result_fstring = f"{student} - {course}: {completed}/{total} ({percent:.1f}%)"
 print("Через %:", result_percent)
 print("Через .format:", result_format)
 print("Через f-строку:", result_fstring)
-print()
 ```
 
 Результат:
